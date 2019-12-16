@@ -1,0 +1,23 @@
+export const Locales = {
+  GERMAN: 'de',
+  ENGLISH: 'en',
+  SPANISH: 'es',
+  FARSI: 'fa',
+  FRENCH: 'fr',
+  ITALIAN: 'it',
+  JAPANESE: 'ja',
+  KOREAN: 'ko',
+  NORWEGIAN: 'nb_NO',
+  NEPALI: 'nep',
+  DUTCH: 'nl',
+  POLISH: 'pl',
+  PORTUGESE: 'pt_PT',
+  RUSSIAN: 'ru',
+  SLOVAK: 'sk',
+  SWEDISH: 'sv',
+  TURKISH: 'tr',
+  UKRAINIAN: 'uk',
+  VIETNAMESE: 'vi',
+  CHINESE_CHINA: 'zh_CN',
+  CHINESE_TAIWAN: 'zh_TW'
+};

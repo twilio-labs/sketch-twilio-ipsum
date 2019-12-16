@@ -1,0 +1,38 @@
+{
+  "name": "sketch-twilio-ipsum",
+  "version": "0.1.0",
+  "description": "A realistic fake data populator for Sketch.",
+  "license": "MIT",
+  "author": "Paste <paste@twilio.com> (https://paste.twilio.design)",
+  "contributors": [
+    "Shadi Isber <sisber@twilio.com>",
+    "Angela Ng <ang@twilio.com>",
+    "Sarah Li <sali@twilio.com>"
+  ],
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "Twilio Ipsum",
+    "manifest": "src/manifest.json",
+    "main": "twilio-ipsum.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link",
+    "lint": "eslint --ext js src/"
+  },
+  "dependencies": {
+    "faker": "4.1.0",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.5.2",
+    "eslint": "^6.7.2"
+  }
+}
