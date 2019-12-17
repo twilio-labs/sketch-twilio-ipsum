@@ -9,6 +9,10 @@
     "Angela Ng <ang@twilio.com>",
     "Sarah Li <sali@twilio.com>"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twilio-labs/sketch-twilio-ipsum.git"
+  },
   "engines": {
     "sketch": ">=3.0"
   },
