@@ -65,7 +65,8 @@
           "SupplyFinanceIban": "onSupplyFinanceIban",
           "SupplyFinanceBic": "onSupplyFinanceBic",
           "SupplyPhoneNumber": "onSupplyPhoneNumber",
-          "SupplyPhoneFormat": "onSupplyPhoneFormat"
+          "SupplyPhoneFormat": "onSupplyPhoneFormat",
+          "SupplyPhoneE164Format": "onSupplyPhoneE164Format"
         }
       }
     }

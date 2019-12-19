@@ -6,6 +6,7 @@ import faker from 'faker';
 import {generateCreditCard} from './lib/credit-card-generator';
 import {generateSid, SidPrefixes} from './utils/sid';
 import {generateApiToken} from './utils/api-token';
+import {generateE164Phone} from './utils/e164-phone';
 import {updateData} from './utils/sketch';
 import {
   DateTimeFormats,
@@ -301,6 +302,11 @@ export function onStartup() {
     'Phone_Phone Format',
     'SupplyPhoneFormat'
   );
+  DataSupplier.registerDataSupplier(
+    'public.text',
+    'Phone_E164 Number',
+    'SupplyPhoneE164Format'
+  );
 }
 
 export function onShutdown() {
@@ -493,4 +499,7 @@ export function onSupplyPhoneNumber(context) {
 }
 export function onSupplyPhoneFormat(context) {
   updateData(context, () => faker.phone.phoneFormats());
+}
+export function onSupplyPhoneE164Format(context) {
+  updateData(context, () => generateE164Phone());
 }
