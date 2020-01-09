@@ -10,7 +10,7 @@
 
 This is a Sketch plugin that provides realistic and internationalized (i18n) data directly into your mockups.
 
-![Twilio Ipsum Sketch plugin preview](https://github.com/twilio-labs/sketch-twilio-ipsum/blob/master/assets/readme/menu.png)
+![Twilio Ipsum Sketch plugin preview](https://github.com/twilio-labs/sketch-twilio-ipsum/blob/master/preview.png)
 
 75% of the time, the data shows up as English. The other 25% of the time it generates in [one of our other locales](https://github.com/twilio-labs/sketch-twilio-ipsum/blob/master/src/constants/faker-locales.js)
 
