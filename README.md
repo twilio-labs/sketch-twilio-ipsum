@@ -6,24 +6,24 @@
 </p>
 <hr>
 
-## About
+## Installation
 
-![Twilio Ipsum Sketch plugin preview](https://github.com/twilio-labs/sketch-twilio-ipsum/blob/master/readme-images/preview.png)
-
-- This is a [Sketch](https://www.sketch.com/) plugin that provides realistic and internationalized (i18n) data directly into your mockups.
-- 75% of the time, the data shows up as English. The other 25% of the time it generates in [one of our other locales](https://github.com/twilio-labs/sketch-twilio-ipsum/blob/master/src/constants/faker-locales.js)
-- If you would like to force a locale, simply append your layer name with the follow text: `|locale`. For example, for french you can do `cool-layer|fr`.
-  ![How to set a locale](https://github.com/twilio-labs/sketch-twilio-ipsum/blob/master/readme-images/locale.png)
-
-## Instructions
-
-1. Download the Sketch plugin zip file
+1. [Download the Sketch plugin](https://github.com/twilio-labs/sketch-twilio-ipsum/releases) zip file
 2. Unzip the file `twilio-ipsum.sketchplugin.zip`
 3. Double-click the extracted `twilio-ipsum.sketchplugin` file and it should install into Sketch.
 4. Now you should see a new option for `Twilio Ipsum` in your data menu, located in `Layer / Data` with all the different types of mock realistic data you can use when you have a text layer selected. You can also right-click on text layers and pull up the same menu under Data.
-   ![Using the data from the layer menu](https://github.com/twilio-labs/sketch-twilio-ipsum/blob/master/readme-images/layer-menu.png)
 
-> [More info about using the Data tool in Sketch](https://www.sketch.com/docs/data/#adding-new-data-sources). Hope you enjoy this nifty plugin!
+![Using the data from the layer menu](https://github.com/twilio-labs/sketch-twilio-ipsum/blob/master/readme-images/layer-menu.png)
+
+![Twilio Ipsum Sketch plugin preview](https://github.com/twilio-labs/sketch-twilio-ipsum/blob/master/readme-images/preview.png)
+
+## About
+
+- This is a [Sketch](https://www.sketch.com/) plugin that provides realistic and internationalized (i18n) data directly into your mockups.
+- 75% of the time, the data shows up as English. The other 25% of the time it generates in [one of our other locales](https://github.com/twilio-labs/sketch-twilio-ipsum#list-of-supported-locales)
+- If you would like to force a locale, simply append your layer name with the follow text: `|locale`. For example, for french you can do `cool-layer|fr`. i.e.:
+
+![How to set a locale](https://github.com/twilio-labs/sketch-twilio-ipsum/blob/master/readme-images/locale.png)
 
 ## List of supported locales
 
@@ -50,6 +50,25 @@ VIETNAMESE: 'vi',
 CHINESE_CHINA: 'zh_CN',
 CHINESE_TAIWAN: 'zh_TW'
 ```
+
+> [More info about using the Data tool in Sketch](https://www.sketch.com/docs/data/#adding-new-data-sources). Hope you enjoy this nifty plugin!
+
+## Contributing
+
+This project welcomes contributions from the community.
+
+## Code of Conduct
+
+Please be aware that this project has a [Code of Conduct](https://github.com/twilio-labs/.github/blob/master/CODE_OF_CONDUCT.md). The tl;dr is to just be excellent to each other ❤️
+
+## Maintainers
+
+This project is maintained by the [design systems team](https://github.com/orgs/twilio-labs/teams/design-systems).
+
+## Prior Art
+
+- [Data Populator](https://www.datapopulator.com/)
+- [Sketch Data Faker](https://github.com/paintedbicycle/sketch-data-faker)
 
 ---
 
@@ -105,6 +124,13 @@ skpm log
 
 The `-f` option causes `skpm log` to not stop when the end of logs is reached, but rather to wait for additional data to be appended to the input
 
+### Workflow
+
+- Clone the repo
+- Use `yarn build` to compile any changes. The plugin is built into the package's root directory.
+- Double click the plugin to install it in Sketch.
+- With Sketch in focus, from the toolbar select Plugins -> Manage Plugins. From there you will be able to toggle the plugin on and off and make sure it was installed.
+
 ### Publishing your plugin
 
 ```bash
@@ -125,27 +151,3 @@ You will need to specify a `repository` in the `package.json`:
 +  }
 ...
 ```
-
-### Workflow
-
-- Clone the repo
-- Use `yarn build` to compile any changes. The plugin is built into the package's root directory.
-- Double click the plugin to install it in Sketch.
-- With Sketch in focus, from the toolbar select Plugins -> Manage Plugins. From there you will be able to toggle the plugin on and off and make sure it was installed.
-
-## Contributing
-
-This project welcomes contributions from the community.
-
-## Code of Conduct
-
-Please be aware that this project has a [Code of Conduct](https://github.com/twilio-labs/.github/blob/master/CODE_OF_CONDUCT.md). The tl;dr is to just be excellent to each other ❤️
-
-## Maintainers
-
-This project is maintained by the [design systems team](https://github.com/orgs/twilio-labs/teams/design-systems).
-
-## Prior Art
-
-- [Data Populator](https://www.datapopulator.com/)
-- [Sketch Data Faker](https://github.com/paintedbicycle/sketch-data-faker)
