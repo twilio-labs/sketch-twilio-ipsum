@@ -8,7 +8,7 @@
 
 ## Installation
 
-1. [Download the Sketch plugin](https://github.com/twilio-labs/sketch-twilio-ipsum/releases) zip file
+1. [Download the Sketch plugin](https://github.com/twilio-labs/sketch-twilio-ipsum/releases/download/v1.0.1/twilio-ipsum.sketchplugin.zip) zip file
 2. Unzip the file `twilio-ipsum.sketchplugin.zip`
 3. Double-click the extracted `twilio-ipsum.sketchplugin` file and it should install into Sketch.
 4. Now you should see a new option for `Twilio Ipsum` in your data menu, located in `Layer / Data` with all the different types of mock realistic data you can use when you have a text layer selected. You can also right-click on text layers and pull up the same menu under Data.
